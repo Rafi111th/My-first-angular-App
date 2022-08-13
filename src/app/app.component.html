@@ -1,3 +1,20 @@
 <ion-app>
-  <ion-router-outlet></ion-router-outlet>
+  <ion-header>
+    <ion-toolbar>
+      <ion-title routerLink="/"> Rafi
+      </ion-title>
+      <ion-buttons slot="end">
+        <ion-button routerLink="/home" color="primary">Home</ion-button>
+        <ion-button routerLink="/about" color="primary"> About</ion-button>
+        <ion-button routerLink="/contact" color="primary"> Contact</ion-button>
+
+      </ion-buttons>
+    </ion-toolbar>
+  </ion-header>
+
+
+  <ion-content>
+    <ion-router-outlet></ion-router-outlet>
+  </ion-content>
+
 </ion-app>
